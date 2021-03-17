@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Chess</title>
+	<meta name="author" content="Filip Kwiatkowski">
+	<meta name="description" content="Simple chess game">
+	<meta name="keywords" content="chess">
+	
+	<link href="main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+	
+</head>
+<body>
+
+	<header>
+	
+		<h1 class="logo">Old School Board Games</h1>
+		
+		<nav id="topnav">
+			<ul class="menu">
+				<li><a href="#" target="_blank">Chess</a></li>
+				<li><a href="#" target="_blank">Checkers</a></li>
+				<li><a href="#" target="_blank">Dice</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		
+		<section>
+			<div id="container">
+			
+				<div class="outerH" style="padding-left: 50px;">a</div>
+				<div class="outerH">b</div>
+				<div class="outerH">c</div>
+				<div class="outerH">d</div>
+				<div class="outerH">e</div>
+				<div class="outerH">f</div>
+				<div class="outerH">g</div>
+				<div class="outerH" style="padding-right: 50px;">h</div>
+				<div style="clear:both;"></div>
+				
+				<div style="float:left;">
+					<div class="outerV" style="padding-top: 10px;">8</div>
+					<div class="outerV">7</div>
+					<div class="outerV">6</div>
+					<div class="outerV">5</div>
+					<div class="outerV">4</div>
+					<div class="outerV">3</div>
+					<div class="outerV">2</div>
+					<div class="outerV" style="padding-bottom: 10px;">1</div>
+				</div>
+				
+				<div id="board">
+
+					<div class="fieldW" id="a8">	<img src="img/rookB.png">	</div>
+					<div class="fieldB" id="b8">	<img src="img/knightB.png">	</div>
+					<div class="fieldW" id="c8">	<img src="img/bishopB.png">	</div>
+					<div class="fieldB" id="d8">	<img src="img/queenB.png">	</div>
+					<div class="fieldW" id="e8">	<img src="img/kingB.png">	</div>
+					<div class="fieldB" id="f8">	<img src="img/bishopB.png">	</div>
+					<div class="fieldW" id="g8">	<img src="img/knightB.png">	</div>
+					<div class="fieldB" id="h8">	<img src="img/rookB.png">	</div>
+					<div style="clear:both;"></div>
+					
+					<div class="fieldB" id="a7">	<img src="img/pawnB.png">	</div>
+					<div class="fieldW" id="b7">	<img src="img/pawnB.png">	</div>
+					<div class="fieldB" id="c7">	<img src="img/pawnB.png">	</div>
+					<div class="fieldW" id="d7">	<img src="img/pawnB.png">	</div>
+					<div class="fieldB" id="e7">	<img src="img/pawnB.png">	</div>
+					<div class="fieldW" id="f7">	<img src="img/pawnB.png">	</div>
+					<div class="fieldB" id="g7">	<img src="img/pawnB.png">	</div>
+					<div class="fieldW" id="h7">	<img src="img/pawnB.png">	</div>
+					<div style="clear:both;"></div>
+					
+					<div class="fieldW" id="a6"></div>
+					<div class="fieldB" id="b6"></div>
+					<div class="fieldW" id="c6"></div>
+					<div class="fieldB" id="d6"></div>
+					<div class="fieldW" id="e6"></div>
+					<div class="fieldB" id="f6"></div>
+					<div class="fieldW" id="g6"></div>
+					<div class="fieldB" id="h6"></div>
+					<div style="clear:both;"></div>
+					
+					<div class="fieldB" id="a5"></div>
+					<div class="fieldW" id="b5"></div>
+					<div class="fieldB" id="c5"></div>
+					<div class="fieldW" id="d5"></div>
+					<div class="fieldB" id="e5"></div>
+					<div class="fieldW" id="f5"></div>
+					<div class="fieldB" id="g5"></div>
+					<div class="fieldW" id="h5"></div>
+					<div style="clear:both;"></div>
+					
+					<div class="fieldW" id="a4"></div>
+					<div class="fieldB" id="b4"></div>
+					<div class="fieldW" id="c4"></div>
+					<div class="fieldB" id="d4"></div>
+					<div class="fieldW" id="e4"></div>
+					<div class="fieldB" id="f4"></div>
+					<div class="fieldW" id="g4"></div>
+					<div class="fieldB" id="h4"></div>
+					<div style="clear:both;"></div>
+					
+					<div class="fieldB" id="a3"></div>
+					<div class="fieldW" id="b3"></div>
+					<div class="fieldB" id="c3"></div>
+					<div class="fieldW" id="d3"></div>
+					<div class="fieldB" id="e3"></div>
+					<div class="fieldW" id="f3"></div>
+					<div class="fieldB" id="g3"></div>
+					<div class="fieldW" id="h3"></div>
+					<div style="clear:both;"></div>
+					
+					<div class="fieldW" id="a2">	<img src="img/pawnW.png">	</div>
+					<div class="fieldB" id="b2">	<img src="img/pawnW.png">	</div>
+					<div class="fieldW" id="c2">	<img src="img/pawnW.png">	</div>
+					<div class="fieldB" id="d2">	<img src="img/pawnW.png">	</div>
+					<div class="fieldW" id="e2">	<img src="img/pawnW.png">	</div>
+					<div class="fieldB" id="f2">	<img src="img/pawnW.png">	</div>
+					<div class="fieldW" id="g2">	<img src="img/pawnW.png">	</div>
+					<div class="fieldB" id="h2">	<img src="img/pawnW.png">	</div>
+					<div style="clear:both;"></div>
+					
+					<div class="fieldB" id="a1">	<img src="img/rookW.png">	</div>
+					<div class="fieldW" id="b1">	<img src="img/knightW.png">	</div>
+					<div class="fieldB" id="c1">	<img src="img/bishopW.png">	</div>
+					<div class="fieldW" id="d1">	<img src="img/queenW.png">	</div>
+					<div class="fieldB" id="e1">	<img src="img/kingW.png">	</div>
+					<div class="fieldW" id="f1">	<img src="img/bishopW.png">	</div>
+					<div class="fieldB" id="g1">	<img src="img/knightW.png">	</div>
+					<div class="fieldW" id="h1">	<img src="img/rookW.png">	</div>
+					<div style="clear:both;"></div>
+				
+				</div>
+				
+				<div style="float:left;">
+					<div class="outerV" style="padding-top: 10px;">8</div>
+					<div class="outerV">7</div>
+					<div class="outerV">6</div>
+					<div class="outerV">5</div>
+					<div class="outerV">4</div>
+					<div class="outerV">3</div>
+					<div class="outerV">2</div>
+					<div class="outerV" style="padding-bottom: 10px;">1</div>
+				</div>
+			
+				<div id="turn">White<br>player<br>turn</div>
+				<div style="clear:both;"></div>
+				
+				<div class="outerH" style="padding-left: 50px;">a</div>
+				<div class="outerH">b</div>
+				<div class="outerH">c</div>
+				<div class="outerH">d</div>
+				<div class="outerH">e</div>
+				<div class="outerH">f</div>
+				<div class="outerH">g</div>
+				<div class="outerH" style="padding-right: 50px;">h</div>
+				<div style="clear:both;"></div>
+				
+			</div>
+		</section>
+		
+	</main>
+	
+	<script src="jquery-3.5.1.min.js"></script>
+	<script src="szachy.js"></script>
+</body>
+</html>

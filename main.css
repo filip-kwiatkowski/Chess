@@ -1,0 +1,140 @@
+body
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/dark_wood_@2X.png");
+	font-size: 26px;
+	font-family: 'Lato', sans-serif;
+	color: #b35900;
+	margin:0;
+}
+
+h1
+{
+	text-align: center;
+	background-color: #222;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+#topnav
+{
+	background-color:#333;
+	text-align: center;
+}
+
+.menu
+{
+	font-weight:700;
+	margin-top:0;
+	padding: 5px;
+}
+
+.menu > li
+{
+	display: inline-block;
+	border-right: 2px solid #663300;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menu > li:first-child
+{
+	border-left: 2px solid #663300;
+}
+
+.menu a
+{
+	text-decoration:none;
+	color:#b35900;
+}
+
+.menu a:hover
+{
+	color: #ff8000;
+}
+
+#container
+{
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:100px;
+}
+
+#board
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:640px;
+	height:640px;
+	border: 5px solid #333;
+	float: left;
+}
+
+.outerH
+{
+	display: flex;
+	width:70px;
+	height: 30px;
+	padding: 5px;
+	background-color: #9d571b;
+	color: #f9ffde;
+	justify-content: center;
+	float: left;
+}
+
+.outerV
+{
+	display: flex;
+	width: 30px;
+	height: 70px;
+	padding: 5px;
+	background-color: #9d571b;
+	color: #f9ffde;
+	justify-content: center;
+	align-items: center;
+}
+
+.fieldB
+{
+	width:60px;
+	height:60px;
+	background-color: #9d571b;
+	float:left;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.fieldW
+{
+	width:60px;
+	height:60px;
+	background-color: #e6ccab;
+	float:left;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#turn
+{
+	float: left;
+	margin-top: 290px;
+	font-size:40px;
+	margin-left: 20px;
+	color: #e6ccab;
+}
+
+.possible_moveB
+{
+	background-color: #3399ff;
+}
+
+.possible_moveW
+{
+	background-color: #99e6ff;
+}
+
+
+
+
